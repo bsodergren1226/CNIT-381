@@ -22,3 +22,10 @@ Docker, run by GitHub Actions on every push, that opens a GitHub issue
 through the API when the plan has errors.
 
 https://github.com/bsodergren1226/ip-plan-check
+
+## Week 7: CML installation
+Got CML up and running and accessed the CML dashboard using the VMs IP
+
+## Week 8: OSPF by Hand, Then Automated
+What I did: configured OSPF manually, ran a provided playbook that automated it,
+and wrote my own playbook to back up the configs. What I learned: <your words>.
