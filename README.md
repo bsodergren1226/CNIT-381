@@ -28,4 +28,13 @@ Got CML up and running and accessed the CML dashboard using the VMs IP
 
 ## Week 8: OSPF by Hand, Then Automated
 What I did: configured OSPF manually, ran a provided playbook that automated it,
-and wrote my own playbook to back up the configs. What I learned: <your words>.
+and wrote my own playbook to back up the configs. 
+
+## Week 9
+This week, I created a new network topology in Cisco Modeling Labs with two routers, a Layer 2 switch, an Ubuntu server, and an external connection. I manually configured IP addresses and SSH access on the network devices so Ansible could communicate with them.
+
+I then created an Ansible inventory and four playbooks to configure loopback interfaces, enable EIGRP routing, set login banners, and back up device configurations. I verified the routing connections and tested the playbooks a second time to confirm that the configurations did not need to be changed again.
+
+This lab helped me understand how manual network configuration and automation work together. I also learned how Ansible uses inventory groups, variables, and playbooks to manage multiple devices more efficiently.
+
+Week 9 GitHub Repository: https://github.com/bsodergren1226/cnit381-week9
