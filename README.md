@@ -38,3 +38,10 @@ I then created an Ansible inventory and four playbooks to configure loopback int
 This lab helped me understand how manual network configuration and automation work together. I also learned how Ansible uses inventory groups, variables, and playbooks to manage multiple devices more efficiently.
 
 Week 9 GitHub Repository: https://github.com/bsodergren1226/cnit381-week9
+
+## Week 10: Ansible on a CSR with the DEVASC VM
+
+Moved from CML to the DEVASC VM and CSR1000v router. Configured the Ansible inventory and configuration file, created a playbook to back up the router's running configuration, and used another playbook to configure IPv6 on GigabitEthernet1.
+
+I learned how to use Ansible on a Cisco IOS XE router from a different control node. I practiced using `ios_command` to retrieve configurations, `ios_config` to make changes, and `register` to save command output. I also learned how to troubleshoot VM networking and verify IPv6 configuration.
+
