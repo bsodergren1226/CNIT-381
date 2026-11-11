@@ -45,3 +45,9 @@ Moved from CML to the DEVASC VM and CSR1000v router. Configured the Ansible inve
 
 I learned how to use Ansible on a Cisco IOS XE router from a different control node. I practiced using `ios_command` to retrieve configurations, `ios_config` to make changes, and `register` to save command output. I also learned how to troubleshoot VM networking and verify IPv6 configuration.
 
+## Week 11: RESTCONF on a 3650 Switch
+I configured RESTCONF on a Cisco 3650 switch and used Postman to retrieve interface information through GET requests. I also used a PUT request to create Loopback1 with the IP address 10.1.1.1. Finally, I wrote a Python script to retrieve the switch's interface information and uploaded it to GitHub.
+
+I learned how RESTCONF uses HTTPS and JSON to manage network devices. I also learned the difference between GET and PUT requests and how Python can automate RESTCONF operations.
+
+
